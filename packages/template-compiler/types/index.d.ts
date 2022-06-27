@@ -8,7 +8,6 @@ interface CompilerOptions {
   directives?: Record<string, DirectiveFunction>
   preserveWhitespace?: boolean
   whitespace?: 'preserve' | 'condense'
-  outputSourceRange?: any
 }
 
 interface CompilerOptionsWithSourceRange extends CompilerOptions {
