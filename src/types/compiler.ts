@@ -1,7 +1,6 @@
 import { BindingMetadata } from 'sfc/types'
 
 export type CompilerOptions = {
-  warn?: Function // allow customizing warning in different environments; e.g. node
   modules?: Array<ModuleOptions> // platform specific modules; e.g. style; class
   directives?: { [key: string]: Function } // platform specific directives
   staticKeys?: string // a list of AST properties to be considered static; for optimization
